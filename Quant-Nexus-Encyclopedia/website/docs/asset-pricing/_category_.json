@@ -1,0 +1,9 @@
+{
+  "label": "Asset Pricing",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Asset Pricing & Risk",
+    "description": "Equilibrium pricing, derivatives, stochastic volatility, fixed income, time series, Kalman filters, microstructure, portfolio risk."
+  }
+}
