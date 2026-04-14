@@ -17,7 +17,7 @@
 8. [Structural Breaks](#8-structural-breaks)
 9. [Long Memory Processes](#9-long-memory-processes)
 10. [Implementation: Python](#10-implementation-python)
-11. [Implementation: C++](#11-implementation-cpp)
+11. [Implementation: C++](#11-implementation-c)
 12. [Exercises](#12-exercises)
 13. [Summary and Concept Map](#13-summary-and-concept-map)
 

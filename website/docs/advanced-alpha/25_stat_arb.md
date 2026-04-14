@@ -18,7 +18,7 @@
 9. [Implementation Considerations](#9-implementation-considerations)
 10. [Case Studies](#10-case-studies)
 11. [Implementation: Python](#11-implementation-python)
-12. [Implementation: C++](#12-implementation-cpp)
+12. [Implementation: C++](#12-implementation-c)
 13. [Exercises](#13-exercises)
 14. [Summary and Concept Map](#14-summary-and-concept-map)
 

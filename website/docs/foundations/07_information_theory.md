@@ -1318,4 +1318,4 @@ The tools developed here — entropy estimation, mutual information, transfer en
 
 ---
 
-*Next: [Module 08 — Optimization Theory](./08_optimization_theory.md)*
+*Next: [Module 08 — Numerical Methods & Scientific Computing](./08_numerical_methods.md)*

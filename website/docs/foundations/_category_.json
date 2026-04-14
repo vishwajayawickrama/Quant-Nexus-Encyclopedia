@@ -3,6 +3,7 @@
   "position": 1,
   "link": {
     "type": "generated-index",
+    "slug": "/foundations",
     "title": "Mathematical Foundations",
     "description": "Core mathematics: linear algebra, probability, stochastic calculus, optimization, numerical methods."
   }

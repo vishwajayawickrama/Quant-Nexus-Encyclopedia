@@ -3,6 +3,7 @@
   "position": 2,
   "link": {
     "type": "generated-index",
+    "slug": "/computation",
     "title": "Computation & Systems",
     "description": "Python, C++, Rust, data structures, low-latency architecture, FPGAs, databases, distributed systems."
   }

@@ -19,7 +19,7 @@
 10. [De-Noising Methods](#10-de-noising-methods)
 11. [Label Design](#11-label-design)
 12. [Implementation: Python](#12-implementation-python)
-13. [Implementation: C++](#13-implementation-cpp)
+13. [Implementation: C++](#13-implementation-c)
 14. [Exercises](#14-exercises)
 15. [Summary and Concept Map](#15-summary-and-concept-map)
 

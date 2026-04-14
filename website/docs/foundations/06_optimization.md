@@ -1442,4 +1442,4 @@ graph LR
     M06 --> M31["Module 31:<br/>Execution"]
 ```
 
-**Next:** [Module 07](07_stochastic_processes.md) develops stochastic processes --- the continuous-time machinery underlying asset price models, where the optimization tools from this module are applied to problems such as optimal stopping (American options) and stochastic control (optimal execution).
+**Next:** [Module 07 — Information Theory](07_information_theory.md) develops the entropy-based machinery for quantifying uncertainty and information flow, complementing the optimization tools from this module.

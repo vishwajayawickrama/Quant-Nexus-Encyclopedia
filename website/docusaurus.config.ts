@@ -13,11 +13,11 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://quant-nexus.example.com',
-  baseUrl: '/',
+  url: 'https://vishwajayawickrama.github.io',
+  baseUrl: '/Quant-Nexus-Encyclopedia/',
 
-  organizationName: 'quant-nexus',
-  projectName: 'quant-nexus-encyclopedia',
+  organizationName: 'vishwajayawickrama',
+  projectName: 'Quant-Nexus-Encyclopedia',
 
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',

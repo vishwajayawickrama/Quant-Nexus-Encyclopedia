@@ -3,6 +3,7 @@
   "position": 4,
   "link": {
     "type": "generated-index",
+    "slug": "/advanced-alpha",
     "title": "Advanced Alpha",
     "description": "Statistical arbitrage, machine learning, deep learning, RL execution, NLP/LLMs, HFT, TCA, backtesting, regime detection, alt data."
   }
