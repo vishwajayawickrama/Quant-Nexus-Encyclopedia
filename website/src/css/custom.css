@@ -3,7 +3,7 @@
  * Palette: indigo/cyan accent, slate neutrals, serif body for long-form reading.
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
   --ifm-color-primary: #4338ca;
@@ -22,6 +22,7 @@
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
   --ifm-heading-font-family: 'Inter', system-ui, sans-serif;
   --ifm-font-family-monospace: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --qn-font-family-prose: 'Source Serif 4', 'Charter', 'Iowan Old Style', 'Palatino', 'Georgia', serif;
 
   --ifm-font-size-base: 16px;
   --ifm-line-height-base: 1.75;
@@ -78,9 +79,22 @@
   border-bottom: none;
 }
 
-/* Make article text a touch more "book-like" */
+/* Article body uses an academic serif for long-form reading. */
+.markdown {
+  font-family: var(--qn-font-family-prose);
+  font-feature-settings: "kern", "liga", "onum", "pnum";
+  font-variant-numeric: oldstyle-nums proportional-nums;
+}
+.markdown > h1,
+.markdown > h2,
+.markdown > h3,
+.markdown > h4 {
+  font-family: var(--qn-font-family-prose);
+  font-feature-settings: "kern", "liga";
+  font-variant-numeric: lining-nums;
+}
 .markdown > h1 {
-  letter-spacing: -0.02em;
+  letter-spacing: -0.015em;
 }
 .markdown > h2 {
   margin-top: 2.5rem;
@@ -90,7 +104,20 @@
 }
 .markdown p,
 .markdown li {
-  font-size: 1.02rem;
+  font-size: 1.06rem;
+  line-height: 1.7;
+}
+.markdown em {
+  font-style: italic;
+}
+/* Tables, code, and inline code stay in their UI/mono fonts */
+.markdown table,
+.markdown code,
+.markdown pre {
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.markdown table {
+  font-family: var(--ifm-font-family-base);
 }
 
 /* Tables readable */

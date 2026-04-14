@@ -60,14 +60,14 @@ The language of quantitative finance is mathematics. These eight modules build t
 
 | # | Module | File | Key Topics | Est. Depth |
 |---|--------|------|------------|------------|
-| 01 | [Linear Algebra for Quantitative Finance](#module-01-linear-algebra-for-quantitative-finance) | [`Foundations/01_linear_algebra.md`](Foundations/01_linear_algebra.md) | Vector spaces, eigendecomposition, SVD, PCA, matrix calculus | ~8,000 words |
-| 02 | [Probability Theory & Measure Theory](#module-02-probability-theory--measure-theory) | [`Foundations/02_probability_measure_theory.md`](Foundations/02_probability_measure_theory.md) | $\sigma$-algebras, Lebesgue integration, convergence theorems, characteristic functions | ~9,000 words |
-| 03 | [Statistical Inference & Estimation](#module-03-statistical-inference--estimation) | [`Foundations/03_statistical_inference.md`](Foundations/03_statistical_inference.md) | MLE, Bayesian inference, hypothesis testing, bootstrap methods, robust estimation | ~7,500 words |
-| 04 | [Stochastic Calculus](#module-04-stochastic-calculus) | [`Foundations/04_stochastic_calculus.md`](Foundations/04_stochastic_calculus.md) | Brownian motion, Ito's lemma, SDEs, Girsanov theorem, Feynman-Kac formula | ~10,000 words |
-| 05 | [Ordinary & Partial Differential Equations](#module-05-ordinary--partial-differential-equations) | [`Foundations/05_differential_equations.md`](Foundations/05_differential_equations.md) | ODE systems, Black-Scholes PDE, Fokker-Planck, Green's functions, finite differences | ~8,500 words |
-| 06 | [Optimization Theory](#module-06-optimization-theory) | [`Foundations/06_optimization.md`](Foundations/06_optimization.md) | Convex optimization, KKT conditions, Lagrangian duality, gradient descent, ADMM | ~8,000 words |
-| 07 | [Information Theory & Entropy](#module-07-information-theory--entropy) | [`Foundations/07_information_theory.md`](Foundations/07_information_theory.md) | Shannon entropy, KL divergence, mutual information, rate-distortion, maximum entropy | ~6,500 words |
-| 08 | [Numerical Methods & Approximation](#module-08-numerical-methods--approximation) | [`Foundations/08_numerical_methods.md`](Foundations/08_numerical_methods.md) | Root finding, quadrature, Monte Carlo, quasi-Monte Carlo, FFT, finite element methods | ~9,000 words |
+| 01 | [Linear Algebra for Quantitative Finance](#module-01-linear-algebra-for-quantitative-finance) | [`website/docs/foundations/01_linear_algebra.md`](website/docs/foundations/01_linear_algebra.md) | Vector spaces, eigendecomposition, SVD, PCA, matrix calculus | ~8,000 words |
+| 02 | [Probability Theory & Measure Theory](#module-02-probability-theory--measure-theory) | [`website/docs/foundations/02_probability_measure_theory.md`](website/docs/foundations/02_probability_measure_theory.md) | $\sigma$-algebras, Lebesgue integration, convergence theorems, characteristic functions | ~9,000 words |
+| 03 | [Statistical Inference & Estimation](#module-03-statistical-inference--estimation) | [`website/docs/foundations/03_statistical_inference.md`](website/docs/foundations/03_statistical_inference.md) | MLE, Bayesian inference, hypothesis testing, bootstrap methods, robust estimation | ~7,500 words |
+| 04 | [Stochastic Calculus](#module-04-stochastic-calculus) | [`website/docs/foundations/04_stochastic_calculus.md`](website/docs/foundations/04_stochastic_calculus.md) | Brownian motion, Ito's lemma, SDEs, Girsanov theorem, Feynman-Kac formula | ~10,000 words |
+| 05 | [Ordinary & Partial Differential Equations](#module-05-ordinary--partial-differential-equations) | [`website/docs/foundations/05_differential_equations.md`](website/docs/foundations/05_differential_equations.md) | ODE systems, Black-Scholes PDE, Fokker-Planck, Green's functions, finite differences | ~8,500 words |
+| 06 | [Optimization Theory](#module-06-optimization-theory) | [`website/docs/foundations/06_optimization.md`](website/docs/foundations/06_optimization.md) | Convex optimization, KKT conditions, Lagrangian duality, gradient descent, ADMM | ~8,000 words |
+| 07 | [Information Theory & Entropy](#module-07-information-theory--entropy) | [`website/docs/foundations/07_information_theory.md`](website/docs/foundations/07_information_theory.md) | Shannon entropy, KL divergence, mutual information, rate-distortion, maximum entropy | ~6,500 words |
+| 08 | [Numerical Methods & Approximation](#module-08-numerical-methods--approximation) | [`website/docs/foundations/08_numerical_methods.md`](website/docs/foundations/08_numerical_methods.md) | Root finding, quadrature, Monte Carlo, quasi-Monte Carlo, FFT, finite element methods | ~9,000 words |
 
 ---
 
@@ -77,14 +77,14 @@ Mathematics without implementation is philosophy. These modules cover the system
 
 | # | Module | File | Key Topics | Est. Depth |
 |---|--------|------|------------|------------|
-| 09 | [Python for Quantitative Research](#module-09-python-for-quantitative-research) | [`Computation/09_python_quant.md`](Computation/09_python_quant.md) | NumPy 2.0, pandas, vectorization, Numba JIT, multiprocessing, async I/O | ~8,000 words |
-| 10 | [C++ for Low-Latency Systems](#module-10-c-for-low-latency-systems) | [`Computation/10_cpp_low_latency.md`](Computation/10_cpp_low_latency.md) | C++23, template metaprogramming, cache optimization, lock-free data structures, SIMD | ~10,000 words |
-| 11 | [Rust for Systems Programming](#module-11-rust-for-systems-programming) | [`Computation/11_rust_systems.md`](Computation/11_rust_systems.md) | Ownership model, zero-cost abstractions, async runtime, unsafe FFI, `no_std` embedded | ~7,500 words |
-| 12 | [Data Structures & Algorithms for Finance](#module-12-data-structures--algorithms-for-finance) | [`Computation/12_data_structures_algorithms.md`](Computation/12_data_structures_algorithms.md) | Order book trees, time-priority queues, ring buffers, spatial indexing, B+ trees | ~8,000 words |
-| 13 | [Low-Latency Systems Architecture](#module-13-low-latency-systems-architecture) | [`Computation/13_low_latency_architecture.md`](Computation/13_low_latency_architecture.md) | Kernel bypass (DPDK, Solarflare OpenOnload), io_uring, NUMA-aware allocation, busy-polling | ~9,500 words |
-| 14 | [FPGA & Hardware Acceleration](#module-14-fpga--hardware-acceleration) | [`Computation/14_fpga_hardware.md`](Computation/14_fpga_hardware.md) | FPGA trading pipelines, HLS, Verilog basics, tick-to-trade in hardware, PCIe DMA | ~7,000 words |
-| 15 | [Database Systems for Tick Data](#module-15-database-systems-for-tick-data) | [`Computation/15_databases_tick_data.md`](Computation/15_databases_tick_data.md) | Time-series databases (QuestDB, TimescaleDB, kdb+/q), columnar storage, partitioning | ~7,500 words |
-| 16 | [Distributed Systems & Message Queues](#module-16-distributed-systems--message-queues) | [`Computation/16_distributed_systems.md`](Computation/16_distributed_systems.md) | Aeron, ZeroMQ, Chronicle Queue, consensus protocols, event sourcing, deterministic replay | ~8,000 words |
+| 09 | [Python for Quantitative Research](#module-09-python-for-quantitative-research) | [`website/docs/computation/09_python_quant.md`](website/docs/computation/09_python_quant.md) | NumPy 2.0, pandas, vectorization, Numba JIT, multiprocessing, async I/O | ~8,000 words |
+| 10 | [C++ for Low-Latency Systems](#module-10-c-for-low-latency-systems) | [`website/docs/computation/10_cpp_low_latency.md`](website/docs/computation/10_cpp_low_latency.md) | C++23, template metaprogramming, cache optimization, lock-free data structures, SIMD | ~10,000 words |
+| 11 | [Rust for Systems Programming](#module-11-rust-for-systems-programming) | [`website/docs/computation/11_rust_systems.md`](website/docs/computation/11_rust_systems.md) | Ownership model, zero-cost abstractions, async runtime, unsafe FFI, `no_std` embedded | ~7,500 words |
+| 12 | [Data Structures & Algorithms for Finance](#module-12-data-structures--algorithms-for-finance) | [`website/docs/computation/12_data_structures_algorithms.md`](website/docs/computation/12_data_structures_algorithms.md) | Order book trees, time-priority queues, ring buffers, spatial indexing, B+ trees | ~8,000 words |
+| 13 | [Low-Latency Systems Architecture](#module-13-low-latency-systems-architecture) | [`website/docs/computation/13_low_latency_architecture.md`](website/docs/computation/13_low_latency_architecture.md) | Kernel bypass (DPDK, Solarflare OpenOnload), io_uring, NUMA-aware allocation, busy-polling | ~9,500 words |
+| 14 | [FPGA & Hardware Acceleration](#module-14-fpga--hardware-acceleration) | [`website/docs/computation/14_fpga_hardware.md`](website/docs/computation/14_fpga_hardware.md) | FPGA trading pipelines, HLS, Verilog basics, tick-to-trade in hardware, PCIe DMA | ~7,000 words |
+| 15 | [Database Systems for Tick Data](#module-15-database-systems-for-tick-data) | [`website/docs/computation/15_databases_tick_data.md`](website/docs/computation/15_databases_tick_data.md) | Time-series databases (QuestDB, TimescaleDB, kdb+/q), columnar storage, partitioning | ~7,500 words |
+| 16 | [Distributed Systems & Message Queues](#module-16-distributed-systems--message-queues) | [`website/docs/computation/16_distributed_systems.md`](website/docs/computation/16_distributed_systems.md) | Aeron, ZeroMQ, Chronicle Queue, consensus protocols, event sourcing, deterministic replay | ~8,000 words |
 
 ---
 
@@ -94,14 +94,14 @@ With the mathematical and computational toolkit in place, these modules cover th
 
 | # | Module | File | Key Topics | Est. Depth |
 |---|--------|------|------------|------------|
-| 17 | [Equilibrium Asset Pricing](#module-17-equilibrium-asset-pricing) | [`Asset_Pricing/17_equilibrium_pricing.md`](Asset_Pricing/17_equilibrium_pricing.md) | CAPM derivation, APT, Fama-French 3/5-factor, consumption-based models, SDF | ~8,500 words |
-| 18 | [Derivatives Pricing & the Greeks](#module-18-derivatives-pricing--the-greeks) | [`Asset_Pricing/18_derivatives_greeks.md`](Asset_Pricing/18_derivatives_greeks.md) | Black-Scholes derivation, risk-neutral pricing, Greeks (full taxonomy), exotic options | ~10,000 words |
-| 19 | [Stochastic Volatility Models](#module-19-stochastic-volatility-models) | [`Asset_Pricing/19_stochastic_volatility.md`](Asset_Pricing/19_stochastic_volatility.md) | Heston model, SABR, rough volatility, characteristic function methods, calibration | ~9,000 words |
-| 20 | [Fixed Income & Term Structure](#module-20-fixed-income--term-structure) | [`Asset_Pricing/20_fixed_income.md`](Asset_Pricing/20_fixed_income.md) | Vasicek, CIR, HJM framework, LIBOR/SOFR transition, convexity adjustment, curve building | ~8,500 words |
-| 21 | [Time Series Analysis](#module-21-time-series-analysis) | [`Asset_Pricing/21_time_series.md`](Asset_Pricing/21_time_series.md) | ARIMA, GARCH/EGARCH/GJR, HAR-RV, cointegration (Johansen), structural breaks | ~9,000 words |
-| 22 | [Kalman Filters & State-Space Models](#module-22-kalman-filters--state-space-models) | [`Asset_Pricing/22_kalman_filters.md`](Asset_Pricing/22_kalman_filters.md) | Linear Kalman filter, EKF, UKF, particle filters, EM algorithm, factor extraction | ~8,000 words |
-| 23 | [Order Book Dynamics & Market Microstructure](#module-23-order-book-dynamics--market-microstructure) | [`Asset_Pricing/23_order_book_microstructure.md`](Asset_Pricing/23_order_book_microstructure.md) | Glosten-Milgrom, Kyle's lambda, Cont-Stoikov-Talreja, queue position models, adverse selection | ~9,500 words |
-| 24 | [Risk Management & Portfolio Theory](#module-24-risk-management--portfolio-theory) | [`Asset_Pricing/24_risk_portfolio.md`](Asset_Pricing/24_risk_portfolio.md) | Mean-variance, Black-Litterman, VaR/CVaR, risk parity, stress testing, copula models | ~8,500 words |
+| 17 | [Equilibrium Asset Pricing](#module-17-equilibrium-asset-pricing) | [`website/docs/asset-pricing/17_equilibrium_pricing.md`](website/docs/asset-pricing/17_equilibrium_pricing.md) | CAPM derivation, APT, Fama-French 3/5-factor, consumption-based models, SDF | ~8,500 words |
+| 18 | [Derivatives Pricing & the Greeks](#module-18-derivatives-pricing--the-greeks) | [`website/docs/asset-pricing/18_derivatives_greeks.md`](website/docs/asset-pricing/18_derivatives_greeks.md) | Black-Scholes derivation, risk-neutral pricing, Greeks (full taxonomy), exotic options | ~10,000 words |
+| 19 | [Stochastic Volatility Models](#module-19-stochastic-volatility-models) | [`website/docs/asset-pricing/19_stochastic_volatility.md`](website/docs/asset-pricing/19_stochastic_volatility.md) | Heston model, SABR, rough volatility, characteristic function methods, calibration | ~9,000 words |
+| 20 | [Fixed Income & Term Structure](#module-20-fixed-income--term-structure) | [`website/docs/asset-pricing/20_fixed_income.md`](website/docs/asset-pricing/20_fixed_income.md) | Vasicek, CIR, HJM framework, LIBOR/SOFR transition, convexity adjustment, curve building | ~8,500 words |
+| 21 | [Time Series Analysis](#module-21-time-series-analysis) | [`website/docs/asset-pricing/21_time_series.md`](website/docs/asset-pricing/21_time_series.md) | ARIMA, GARCH/EGARCH/GJR, HAR-RV, cointegration (Johansen), structural breaks | ~9,000 words |
+| 22 | [Kalman Filters & State-Space Models](#module-22-kalman-filters--state-space-models) | [`website/docs/asset-pricing/22_kalman_filters.md`](website/docs/asset-pricing/22_kalman_filters.md) | Linear Kalman filter, EKF, UKF, particle filters, EM algorithm, factor extraction | ~8,000 words |
+| 23 | [Order Book Dynamics & Market Microstructure](#module-23-order-book-dynamics--market-microstructure) | [`website/docs/asset-pricing/23_order_book_microstructure.md`](website/docs/asset-pricing/23_order_book_microstructure.md) | Glosten-Milgrom, Kyle's lambda, Cont-Stoikov-Talreja, queue position models, adverse selection | ~9,500 words |
+| 24 | [Risk Management & Portfolio Theory](#module-24-risk-management--portfolio-theory) | [`website/docs/asset-pricing/24_risk_portfolio.md`](website/docs/asset-pricing/24_risk_portfolio.md) | Mean-variance, Black-Litterman, VaR/CVaR, risk parity, stress testing, copula models | ~8,500 words |
 
 ---
 
@@ -111,16 +111,16 @@ The apex of the curriculum. These modules integrate everything prior into the de
 
 | # | Module | File | Key Topics | Est. Depth |
 |---|--------|------|------------|------------|
-| 25 | [Statistical Arbitrage & Pairs Trading](#module-25-statistical-arbitrage--pairs-trading) | [`Advanced_Alpha/25_stat_arb.md`](Advanced_Alpha/25_stat_arb.md) | Cointegration-based pairs, Ornstein-Uhlenbeck calibration, PCA-based baskets, mean-reversion signals | ~8,000 words |
-| 26 | [Machine Learning for Alpha Generation](#module-26-machine-learning-for-alpha-generation) | [`Advanced_Alpha/26_ml_alpha.md`](Advanced_Alpha/26_ml_alpha.md) | Feature engineering, cross-validation pitfalls, gradient boosting, random forests, regularization | ~9,000 words |
-| 27 | [Deep Learning & Neural Networks in Finance](#module-27-deep-learning--neural-networks-in-finance) | [`Advanced_Alpha/27_deep_learning.md`](Advanced_Alpha/27_deep_learning.md) | LSTMs, Transformers, temporal CNNs, attention for LOB, normalizing flows for vol surfaces | ~9,500 words |
-| 28 | [Reinforcement Learning for Execution](#module-28-reinforcement-learning-for-execution) | [`Advanced_Alpha/28_rl_execution.md`](Advanced_Alpha/28_rl_execution.md) | MDP formulation, DQN, PPO, Almgren-Chriss baseline, reward shaping, sim-to-real transfer | ~8,500 words |
-| 29 | [NLP, Sentiment & LLMs for Finance](#module-29-nlp-sentiment--llms-for-finance) | [`Advanced_Alpha/29_nlp_sentiment_llms.md`](Advanced_Alpha/29_nlp_sentiment_llms.md) | FinBERT, news embeddings, earnings call parsing, LLM-driven signal extraction, prompt engineering for alpha | ~8,000 words |
-| 30 | [High-Frequency Trading Strategies](#module-30-high-frequency-trading-strategies) | [`Advanced_Alpha/30_hft_strategies.md`](Advanced_Alpha/30_hft_strategies.md) | Market making, latency arbitrage, queue position alpha, inventory management, toxicity detection | ~10,000 words |
-| 31 | [Transaction Cost Analysis & Optimal Execution](#module-31-transaction-cost-analysis--optimal-execution) | [`Advanced_Alpha/31_tca_execution.md`](Advanced_Alpha/31_tca_execution.md) | Almgren-Chriss, market impact models (square-root law), VWAP/TWAP, implementation shortfall | ~8,000 words |
-| 32 | [Backtesting Frameworks & Simulation](#module-32-backtesting-frameworks--simulation) | [`Advanced_Alpha/32_backtesting.md`](Advanced_Alpha/32_backtesting.md) | Event-driven vs. vectorized, look-ahead bias, survivorship bias, Monte Carlo permutation tests | ~8,500 words |
-| 33 | [Regime Detection & Adaptive Strategies](#module-33-regime-detection--adaptive-strategies) | [`Advanced_Alpha/33_regime_detection.md`](Advanced_Alpha/33_regime_detection.md) | Hidden Markov models, change-point detection (PELT, BOCPD), online learning, adaptive Kelly | ~7,500 words |
-| 34 | [Alternative Data & Feature Engineering](#module-34-alternative-data--feature-engineering) | [`Advanced_Alpha/34_alt_data_features.md`](Advanced_Alpha/34_alt_data_features.md) | Satellite imagery, credit card data, web scraping, geospatial signals, feature selection (LASSO, mRMR) | ~7,500 words |
+| 25 | [Statistical Arbitrage & Pairs Trading](#module-25-statistical-arbitrage--pairs-trading) | [`website/docs/advanced-alpha/25_stat_arb.md`](website/docs/advanced-alpha/25_stat_arb.md) | Cointegration-based pairs, Ornstein-Uhlenbeck calibration, PCA-based baskets, mean-reversion signals | ~8,000 words |
+| 26 | [Machine Learning for Alpha Generation](#module-26-machine-learning-for-alpha-generation) | [`website/docs/advanced-alpha/26_ml_alpha.md`](website/docs/advanced-alpha/26_ml_alpha.md) | Feature engineering, cross-validation pitfalls, gradient boosting, random forests, regularization | ~9,000 words |
+| 27 | [Deep Learning & Neural Networks in Finance](#module-27-deep-learning--neural-networks-in-finance) | [`website/docs/advanced-alpha/27_deep_learning.md`](website/docs/advanced-alpha/27_deep_learning.md) | LSTMs, Transformers, temporal CNNs, attention for LOB, normalizing flows for vol surfaces | ~9,500 words |
+| 28 | [Reinforcement Learning for Execution](#module-28-reinforcement-learning-for-execution) | [`website/docs/advanced-alpha/28_rl_execution.md`](website/docs/advanced-alpha/28_rl_execution.md) | MDP formulation, DQN, PPO, Almgren-Chriss baseline, reward shaping, sim-to-real transfer | ~8,500 words |
+| 29 | [NLP, Sentiment & LLMs for Finance](#module-29-nlp-sentiment--llms-for-finance) | [`website/docs/advanced-alpha/29_nlp_sentiment_llms.md`](website/docs/advanced-alpha/29_nlp_sentiment_llms.md) | FinBERT, news embeddings, earnings call parsing, LLM-driven signal extraction, prompt engineering for alpha | ~8,000 words |
+| 30 | [High-Frequency Trading Strategies](#module-30-high-frequency-trading-strategies) | [`website/docs/advanced-alpha/30_hft_strategies.md`](website/docs/advanced-alpha/30_hft_strategies.md) | Market making, latency arbitrage, queue position alpha, inventory management, toxicity detection | ~10,000 words |
+| 31 | [Transaction Cost Analysis & Optimal Execution](#module-31-transaction-cost-analysis--optimal-execution) | [`website/docs/advanced-alpha/31_tca_execution.md`](website/docs/advanced-alpha/31_tca_execution.md) | Almgren-Chriss, market impact models (square-root law), VWAP/TWAP, implementation shortfall | ~8,000 words |
+| 32 | [Backtesting Frameworks & Simulation](#module-32-backtesting-frameworks--simulation) | [`website/docs/advanced-alpha/32_backtesting.md`](website/docs/advanced-alpha/32_backtesting.md) | Event-driven vs. vectorized, look-ahead bias, survivorship bias, Monte Carlo permutation tests | ~8,500 words |
+| 33 | [Regime Detection & Adaptive Strategies](#module-33-regime-detection--adaptive-strategies) | [`website/docs/advanced-alpha/33_regime_detection.md`](website/docs/advanced-alpha/33_regime_detection.md) | Hidden Markov models, change-point detection (PELT, BOCPD), online learning, adaptive Kelly | ~7,500 words |
+| 34 | [Alternative Data & Feature Engineering](#module-34-alternative-data--feature-engineering) | [`website/docs/advanced-alpha/34_alt_data_features.md`](website/docs/advanced-alpha/34_alt_data_features.md) | Satellite imagery, credit card data, web scraping, geospatial signals, feature selection (LASSO, mRMR) | ~7,500 words |
 
 ---
 
@@ -129,7 +129,7 @@ The apex of the curriculum. These modules integrate everything prior into the de
 ---
 
 ### Module 01: Linear Algebra for Quantitative Finance
-**File:** [`Foundations/01_linear_algebra.md`](Foundations/01_linear_algebra.md)
+**File:** [`website/docs/foundations/01_linear_algebra.md`](website/docs/foundations/01_linear_algebra.md)
 **Prerequisites:** High-school algebra
 **Builds toward:** Modules 02, 03, 06, 17, 22, 24, 26
 
@@ -160,7 +160,7 @@ graph LR
 ---
 
 ### Module 02: Probability Theory & Measure Theory
-**File:** [`Foundations/02_probability_measure_theory.md`](Foundations/02_probability_measure_theory.md)
+**File:** [`website/docs/foundations/02_probability_measure_theory.md`](website/docs/foundations/02_probability_measure_theory.md)
 **Prerequisites:** Module 01 (Linear Algebra)
 **Builds toward:** Modules 03, 04, 07, 17, 22
 
@@ -181,7 +181,7 @@ The rigorous foundation upon which all of stochastic finance rests. We begin wit
 ---
 
 ### Module 03: Statistical Inference & Estimation
-**File:** [`Foundations/03_statistical_inference.md`](Foundations/03_statistical_inference.md)
+**File:** [`website/docs/foundations/03_statistical_inference.md`](website/docs/foundations/03_statistical_inference.md)
 **Prerequisites:** Modules 01, 02
 **Builds toward:** Modules 06, 21, 25, 26, 34
 
@@ -199,7 +199,7 @@ How we extract signal from noise. In markets, the signal-to-noise ratio is bruta
 ---
 
 ### Module 04: Stochastic Calculus
-**File:** [`Foundations/04_stochastic_calculus.md`](Foundations/04_stochastic_calculus.md)
+**File:** [`website/docs/foundations/04_stochastic_calculus.md`](website/docs/foundations/04_stochastic_calculus.md)
 **Prerequisites:** Modules 01, 02, 05 (ODEs/PDEs — can be studied concurrently)
 **Builds toward:** Modules 17, 18, 19, 20, 23, 25
 
@@ -221,7 +221,7 @@ The calculus of randomness. Ordinary calculus breaks when applied to Brownian mo
 ---
 
 ### Module 05: Ordinary & Partial Differential Equations
-**File:** [`Foundations/05_differential_equations.md`](Foundations/05_differential_equations.md)
+**File:** [`website/docs/foundations/05_differential_equations.md`](website/docs/foundations/05_differential_equations.md)
 **Prerequisites:** Module 01
 **Builds toward:** Modules 04, 08, 18, 19, 20
 
@@ -241,7 +241,7 @@ Differential equations are the language of dynamics. The Black-Scholes PDE, the 
 ---
 
 ### Module 06: Optimization Theory
-**File:** [`Foundations/06_optimization.md`](Foundations/06_optimization.md)
+**File:** [`website/docs/foundations/06_optimization.md`](website/docs/foundations/06_optimization.md)
 **Prerequisites:** Modules 01, 03
 **Builds toward:** Modules 17, 24, 26, 28, 31
 
@@ -261,7 +261,7 @@ Every portfolio construction, every model calibration, every execution algorithm
 ---
 
 ### Module 07: Information Theory & Entropy
-**File:** [`Foundations/07_information_theory.md`](Foundations/07_information_theory.md)
+**File:** [`website/docs/foundations/07_information_theory.md`](website/docs/foundations/07_information_theory.md)
 **Prerequisites:** Modules 02, 03
 **Builds toward:** Modules 26, 33, 34
 
@@ -280,7 +280,7 @@ Information theory quantifies uncertainty, surprise, and the limits of what can 
 ---
 
 ### Module 08: Numerical Methods & Approximation
-**File:** [`Foundations/08_numerical_methods.md`](Foundations/08_numerical_methods.md)
+**File:** [`website/docs/foundations/08_numerical_methods.md`](website/docs/foundations/08_numerical_methods.md)
 **Prerequisites:** Modules 01, 05, 06
 **Builds toward:** Modules 09, 10, 18, 19, 20
 
@@ -299,7 +299,7 @@ The bridge between theory and computation. Closed-form solutions are the excepti
 ---
 
 ### Module 09: Python for Quantitative Research
-**File:** [`Computation/09_python_quant.md`](Computation/09_python_quant.md)
+**File:** [`website/docs/computation/09_python_quant.md`](website/docs/computation/09_python_quant.md)
 **Prerequisites:** Basic programming experience
 **Builds toward:** Modules 21, 22, 25, 26, 27, 32
 
@@ -318,7 +318,7 @@ Python is the lingua franca of quantitative research. This module covers not the
 ---
 
 ### Module 10: C++ for Low-Latency Systems
-**File:** [`Computation/10_cpp_low_latency.md`](Computation/10_cpp_low_latency.md)
+**File:** [`website/docs/computation/10_cpp_low_latency.md`](website/docs/computation/10_cpp_low_latency.md)
 **Prerequisites:** Module 09 (or equivalent programming experience)
 **Builds toward:** Modules 12, 13, 14, 16, 30
 
@@ -349,7 +349,7 @@ graph TD
 ---
 
 ### Module 11: Rust for Systems Programming
-**File:** [`Computation/11_rust_systems.md`](Computation/11_rust_systems.md)
+**File:** [`website/docs/computation/11_rust_systems.md`](website/docs/computation/11_rust_systems.md)
 **Prerequisites:** Module 09 or 10
 **Builds toward:** Modules 12, 13, 16
 
@@ -368,7 +368,7 @@ Rust offers C++-grade performance with memory safety guarantees enforced at comp
 ---
 
 ### Module 12: Data Structures & Algorithms for Finance
-**File:** [`Computation/12_data_structures_algorithms.md`](Computation/12_data_structures_algorithms.md)
+**File:** [`website/docs/computation/12_data_structures_algorithms.md`](website/docs/computation/12_data_structures_algorithms.md)
 **Prerequisites:** Modules 10 or 11
 **Builds toward:** Modules 13, 15, 23, 30
 
@@ -388,7 +388,7 @@ Generic algorithms textbooks optimize for asymptotic complexity. In HFT, the con
 ---
 
 ### Module 13: Low-Latency Systems Architecture
-**File:** [`Computation/13_low_latency_architecture.md`](Computation/13_low_latency_architecture.md)
+**File:** [`website/docs/computation/13_low_latency_architecture.md`](website/docs/computation/13_low_latency_architecture.md)
 **Prerequisites:** Modules 10, 12
 **Builds toward:** Modules 14, 16, 30
 
@@ -422,7 +422,7 @@ graph LR
 ---
 
 ### Module 14: FPGA & Hardware Acceleration
-**File:** [`Computation/14_fpga_hardware.md`](Computation/14_fpga_hardware.md)
+**File:** [`website/docs/computation/14_fpga_hardware.md`](website/docs/computation/14_fpga_hardware.md)
 **Prerequisites:** Module 13
 **Builds toward:** Module 30
 
@@ -442,7 +442,7 @@ When software latency hits its floor, hardware takes over. FPGAs (Field-Programm
 ---
 
 ### Module 15: Database Systems for Tick Data
-**File:** [`Computation/15_databases_tick_data.md`](Computation/15_databases_tick_data.md)
+**File:** [`website/docs/computation/15_databases_tick_data.md`](website/docs/computation/15_databases_tick_data.md)
 **Prerequisites:** Module 09, 12
 **Builds toward:** Modules 32, 34
 
@@ -462,7 +462,7 @@ A single trading day for US equities generates approximately 10 billion market d
 ---
 
 ### Module 16: Distributed Systems & Message Queues
-**File:** [`Computation/16_distributed_systems.md`](Computation/16_distributed_systems.md)
+**File:** [`website/docs/computation/16_distributed_systems.md`](website/docs/computation/16_distributed_systems.md)
 **Prerequisites:** Modules 10 or 11, 13
 **Builds toward:** Modules 30, 32
 
@@ -482,7 +482,7 @@ Trading systems are inherently distributed — market data arrives from exchange
 ---
 
 ### Module 17: Equilibrium Asset Pricing
-**File:** [`Asset_Pricing/17_equilibrium_pricing.md`](Asset_Pricing/17_equilibrium_pricing.md)
+**File:** [`website/docs/asset-pricing/17_equilibrium_pricing.md`](website/docs/asset-pricing/17_equilibrium_pricing.md)
 **Prerequisites:** Modules 01, 02, 04, 06
 **Builds toward:** Modules 18, 24, 25
 
@@ -502,7 +502,7 @@ Why do assets have the expected returns they do? This module derives the classic
 ---
 
 ### Module 18: Derivatives Pricing & the Greeks
-**File:** [`Asset_Pricing/18_derivatives_greeks.md`](Asset_Pricing/18_derivatives_greeks.md)
+**File:** [`website/docs/asset-pricing/18_derivatives_greeks.md`](website/docs/asset-pricing/18_derivatives_greeks.md)
 **Prerequisites:** Modules 04, 05, 08
 **Builds toward:** Modules 19, 20, 23, 30
 
@@ -525,7 +525,7 @@ The crown jewel of mathematical finance. This module derives the Black-Scholes-M
 ---
 
 ### Module 19: Stochastic Volatility Models
-**File:** [`Asset_Pricing/19_stochastic_volatility.md`](Asset_Pricing/19_stochastic_volatility.md)
+**File:** [`website/docs/asset-pricing/19_stochastic_volatility.md`](website/docs/asset-pricing/19_stochastic_volatility.md)
 **Prerequisites:** Modules 04, 08, 18
 **Builds toward:** Modules 23, 30
 
@@ -550,7 +550,7 @@ Black-Scholes assumes constant volatility. Markets disagree — the volatility s
 ---
 
 ### Module 20: Fixed Income & Term Structure
-**File:** [`Asset_Pricing/20_fixed_income.md`](Asset_Pricing/20_fixed_income.md)
+**File:** [`website/docs/asset-pricing/20_fixed_income.md`](website/docs/asset-pricing/20_fixed_income.md)
 **Prerequisites:** Modules 04, 05, 18
 **Builds toward:** Modules 22, 24
 
@@ -572,7 +572,7 @@ The fixed income market is the largest financial market in the world. This modul
 ---
 
 ### Module 21: Time Series Analysis
-**File:** [`Asset_Pricing/21_time_series.md`](Asset_Pricing/21_time_series.md)
+**File:** [`website/docs/asset-pricing/21_time_series.md`](website/docs/asset-pricing/21_time_series.md)
 **Prerequisites:** Modules 01, 02, 03, 09
 **Builds toward:** Modules 22, 25, 26, 33
 
@@ -596,7 +596,7 @@ Financial time series exhibit stylized facts that distinguish them from textbook
 ---
 
 ### Module 22: Kalman Filters & State-Space Models
-**File:** [`Asset_Pricing/22_kalman_filters.md`](Asset_Pricing/22_kalman_filters.md)
+**File:** [`website/docs/asset-pricing/22_kalman_filters.md`](website/docs/asset-pricing/22_kalman_filters.md)
 **Prerequisites:** Modules 01, 02, 21
 **Builds toward:** Modules 25, 33
 
@@ -620,7 +620,7 @@ Many quantities in finance are not directly observable — the "true" volatility
 ---
 
 ### Module 23: Order Book Dynamics & Market Microstructure
-**File:** [`Asset_Pricing/23_order_book_microstructure.md`](Asset_Pricing/23_order_book_microstructure.md)
+**File:** [`website/docs/asset-pricing/23_order_book_microstructure.md`](website/docs/asset-pricing/23_order_book_microstructure.md)
 **Prerequisites:** Modules 02, 04, 21
 **Builds toward:** Modules 28, 30, 31
 
@@ -644,7 +644,7 @@ Market microstructure is the study of how prices form through the interaction of
 ---
 
 ### Module 24: Risk Management & Portfolio Theory
-**File:** [`Asset_Pricing/24_risk_portfolio.md`](Asset_Pricing/24_risk_portfolio.md)
+**File:** [`website/docs/asset-pricing/24_risk_portfolio.md`](website/docs/asset-pricing/24_risk_portfolio.md)
 **Prerequisites:** Modules 01, 02, 06, 17
 **Builds toward:** Modules 25, 30, 31, 32
 
@@ -665,7 +665,7 @@ Risk management is what separates a trading firm from a casino. This module cove
 ---
 
 ### Module 25: Statistical Arbitrage & Pairs Trading
-**File:** [`Advanced_Alpha/25_stat_arb.md`](Advanced_Alpha/25_stat_arb.md)
+**File:** [`website/docs/advanced-alpha/25_stat_arb.md`](website/docs/advanced-alpha/25_stat_arb.md)
 **Prerequisites:** Modules 04, 21, 22, 24
 **Builds toward:** Modules 30, 32, 33
 
@@ -685,7 +685,7 @@ Statistical arbitrage exploits temporary mispricings between related securities.
 ---
 
 ### Module 26: Machine Learning for Alpha Generation
-**File:** [`Advanced_Alpha/26_ml_alpha.md`](Advanced_Alpha/26_ml_alpha.md)
+**File:** [`website/docs/advanced-alpha/26_ml_alpha.md`](website/docs/advanced-alpha/26_ml_alpha.md)
 **Prerequisites:** Modules 01, 03, 06, 09, 21
 **Builds toward:** Modules 27, 28, 29, 33, 34
 
@@ -706,7 +706,7 @@ Machine learning in finance is not Kaggle. The signal-to-noise ratio is orders o
 ---
 
 ### Module 27: Deep Learning & Neural Networks in Finance
-**File:** [`Advanced_Alpha/27_deep_learning.md`](Advanced_Alpha/27_deep_learning.md)
+**File:** [`website/docs/advanced-alpha/27_deep_learning.md`](website/docs/advanced-alpha/27_deep_learning.md)
 **Prerequisites:** Modules 06, 09, 26
 **Builds toward:** Modules 28, 29
 
@@ -728,7 +728,7 @@ Deep learning extends the ML toolkit with architectures capable of learning hier
 ---
 
 ### Module 28: Reinforcement Learning for Execution
-**File:** [`Advanced_Alpha/28_rl_execution.md`](Advanced_Alpha/28_rl_execution.md)
+**File:** [`website/docs/advanced-alpha/28_rl_execution.md`](website/docs/advanced-alpha/28_rl_execution.md)
 **Prerequisites:** Modules 06, 26, 23, 31
 **Builds toward:** Module 30
 
@@ -753,7 +753,7 @@ Optimal execution is fundamentally a sequential decision problem under uncertain
 ---
 
 ### Module 29: NLP, Sentiment & LLMs for Finance
-**File:** [`Advanced_Alpha/29_nlp_sentiment_llms.md`](Advanced_Alpha/29_nlp_sentiment_llms.md)
+**File:** [`website/docs/advanced-alpha/29_nlp_sentiment_llms.md`](website/docs/advanced-alpha/29_nlp_sentiment_llms.md)
 **Prerequisites:** Modules 09, 26, 27
 **Builds toward:** Modules 30, 34
 
@@ -778,7 +778,7 @@ Unstructured text — news articles, earnings calls, SEC filings, social media, 
 ---
 
 ### Module 30: High-Frequency Trading Strategies
-**File:** [`Advanced_Alpha/30_hft_strategies.md`](Advanced_Alpha/30_hft_strategies.md)
+**File:** [`website/docs/advanced-alpha/30_hft_strategies.md`](website/docs/advanced-alpha/30_hft_strategies.md)
 **Prerequisites:** Modules 10, 13, 14, 23 (the full computation and microstructure stack)
 **Builds toward:** Module 31, 32
 
@@ -809,7 +809,7 @@ The integration module. HFT strategies operate at the intersection of microstruc
 ---
 
 ### Module 31: Transaction Cost Analysis & Optimal Execution
-**File:** [`Advanced_Alpha/31_tca_execution.md`](Advanced_Alpha/31_tca_execution.md)
+**File:** [`website/docs/advanced-alpha/31_tca_execution.md`](website/docs/advanced-alpha/31_tca_execution.md)
 **Prerequisites:** Modules 23, 24, 28
 **Builds toward:** Module 32
 
@@ -833,7 +833,7 @@ The bridge between alpha and realized P&L. Every signal loses value through exec
 ---
 
 ### Module 32: Backtesting Frameworks & Simulation
-**File:** [`Advanced_Alpha/32_backtesting.md`](Advanced_Alpha/32_backtesting.md)
+**File:** [`website/docs/advanced-alpha/32_backtesting.md`](website/docs/advanced-alpha/32_backtesting.md)
 **Prerequisites:** Modules 09, 24, 31
 **Builds toward:** Modules 33, 34
 
@@ -860,7 +860,7 @@ A backtest is a hypothesis test. Most backtests are wrong. This module develops 
 ---
 
 ### Module 33: Regime Detection & Adaptive Strategies
-**File:** [`Advanced_Alpha/33_regime_detection.md`](Advanced_Alpha/33_regime_detection.md)
+**File:** [`website/docs/advanced-alpha/33_regime_detection.md`](website/docs/advanced-alpha/33_regime_detection.md)
 **Prerequisites:** Modules 02, 21, 22, 26
 **Builds toward:** Module 34
 
@@ -888,7 +888,7 @@ Markets alternate between regimes — trending, mean-reverting, volatile, calm, 
 ---
 
 ### Module 34: Alternative Data & Feature Engineering
-**File:** [`Advanced_Alpha/34_alt_data_features.md`](Advanced_Alpha/34_alt_data_features.md)
+**File:** [`website/docs/advanced-alpha/34_alt_data_features.md`](website/docs/advanced-alpha/34_alt_data_features.md)
 **Prerequisites:** Modules 03, 09, 26, 29
 **Builds toward:** (Capstone)
 
