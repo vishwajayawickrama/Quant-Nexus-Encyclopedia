@@ -1225,4 +1225,4 @@ This module established the differential equation foundations that pervade quant
 
 ---
 
-*Next: [Module 06 -- Optimization Theory](../Foundations/06_optimization_theory.md)*
+*Next: [Module 06 -- Optimization Theory](../foundations/06_optimization.md)*

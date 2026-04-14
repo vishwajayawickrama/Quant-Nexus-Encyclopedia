@@ -1,7 +1,7 @@
 # Module 10: C++ for Low-Latency Systems
 
 > **Quant-Nexus Encyclopedia** -- Computation Track
-> Module 10 of 34 | Prerequisites: [Module 09 -- Numerical Methods & Scientific Computing](./09_numerical_methods.md)
+> Module 10 of 34 | Prerequisites: [Module 08 -- Numerical Methods & Scientific Computing](../foundations/08_numerical_methods.md)
 > Builds toward: Modules 12 (Networking & Kernel Bypass), 13 (FPGA Co-Processing), 14 (Exchange Connectivity), 16 (Execution Engines), 30 (Full System Integration)
 
 ---
@@ -1973,7 +1973,7 @@ This module covered the C++ techniques that separate a 50-microsecond trading sy
 
 ---
 
-*Next: [Module 11 — Rust for Systems Programming](../Computation/11_rust_systems.md)*
+*Next: [Module 11 — Rust for Systems Programming](../computation/11_rust_systems.md)*
 
 ---
 

@@ -1635,4 +1635,4 @@ The central tension in regime detection for trading is the **speed-accuracy trad
 
 ---
 
-*Next: [Module 34 — Alternative Data & Feature Engineering](../Advanced_Alpha/34_alt_data_features.md)*
+*Next: [Module 34 — Alternative Data & Feature Engineering](../advanced-alpha/34_alt_data_features.md)*

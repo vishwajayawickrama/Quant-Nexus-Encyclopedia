@@ -2157,4 +2157,4 @@ The messaging layer is the nervous system of a trading platform. Its design dete
 
 ---
 
-*Next: [Module 17 — Equilibrium Asset Pricing](../Asset_Pricing/17_equilibrium_pricing.md)*
+*Next: [Module 17 — Equilibrium Asset Pricing](../asset-pricing/17_equilibrium_pricing.md)*

@@ -1734,4 +1734,4 @@ graph TD
 
 ---
 
-*Next: [Module 23 — Order Book Dynamics & Market Microstructure](../Asset_Pricing/23_order_book_microstructure.md)*
+*Next: [Module 23 — Order Book Dynamics & Market Microstructure](../asset-pricing/23_order_book_microstructure.md)*

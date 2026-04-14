@@ -1840,4 +1840,4 @@ flowchart LR
 
 ---
 
-*Next: [Module 21 — Time Series Analysis](../Asset_Pricing/21_time_series.md)*
+*Next: [Module 21 — Time Series Analysis](../asset-pricing/21_time_series.md)*

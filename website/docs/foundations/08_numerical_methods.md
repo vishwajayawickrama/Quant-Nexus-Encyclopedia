@@ -1629,4 +1629,4 @@ mindmap
 
 ---
 
-**Next: [Module 09 -- Finite Difference Methods for PDEs](09_finite_difference_methods.md)** covers the Crank-Nicolson scheme, upwinding, mesh design, American option handling via PSOR, and ADI methods for multi-factor models, building directly on the numerical foundations established here.
+**Next: [Module 09 -- Python for Quantitative Finance](../computation/09_python_quant.md)** moves from numerical foundations into the production-oriented Python stack used to implement these methods at scale.

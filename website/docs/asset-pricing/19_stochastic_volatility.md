@@ -1385,4 +1385,4 @@ graph TB
 
 ---
 
-*Next: [Module 20 — Fixed Income & Term Structure](../Asset_Pricing/20_fixed_income.md)*
+*Next: [Module 20 — Fixed Income & Term Structure](../asset-pricing/20_fixed_income.md)*

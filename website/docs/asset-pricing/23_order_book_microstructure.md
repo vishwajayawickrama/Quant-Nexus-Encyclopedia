@@ -1433,4 +1433,4 @@ graph TD
 
 ---
 
-*Next: [Module 24 — Risk Management & Portfolio Theory](../Asset_Pricing/24_risk_portfolio.md)*
+*Next: [Module 24 — Risk Management & Portfolio Theory](../asset-pricing/24_risk_portfolio.md)*

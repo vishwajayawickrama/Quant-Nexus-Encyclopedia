@@ -1294,4 +1294,4 @@ The convergence theorems (MCT, DCT, Fatou) justify the computational methods we 
 
 ---
 
-*Next: [Module 03 — Statistical Inference & Estimation](../Foundations/03_statistical_inference.md)*
+*Next: [Module 03 — Statistical Inference & Estimation](../foundations/03_statistical_inference.md)*

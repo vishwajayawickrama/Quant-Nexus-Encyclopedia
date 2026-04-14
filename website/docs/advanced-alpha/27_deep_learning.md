@@ -1631,6 +1631,6 @@ graph TB
 
 ---
 
-**Previous:** [Module 26: Machine Learning Foundations](../Foundations/26_ml_foundations.md)
+**Previous:** [Module 26: Machine Learning Foundations](../advanced-alpha/26_ml_alpha.md)
 
-*Next: [Module 28 — Reinforcement Learning for Execution](../Advanced_Alpha/28_rl_execution.md)*
+*Next: [Module 28 — Reinforcement Learning for Execution](../advanced-alpha/28_rl_execution.md)*

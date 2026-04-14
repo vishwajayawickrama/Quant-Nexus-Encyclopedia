@@ -1522,6 +1522,6 @@ graph TD
 
 ---
 
-**Previous:** [Module 24: Risk Management & Portfolio Theory](../Asset_Pricing/24_risk_portfolio.md) provides the portfolio construction and risk measurement frameworks upon which stat arb risk management builds.
+**Previous:** [Module 24: Risk Management & Portfolio Theory](../asset-pricing/24_risk_portfolio.md) provides the portfolio construction and risk measurement frameworks upon which stat arb risk management builds.
 
-*Next: [Module 26 — Machine Learning for Alpha Generation](../Advanced_Alpha/26_ml_alpha.md)*
+*Next: [Module 26 — Machine Learning for Alpha Generation](../advanced-alpha/26_ml_alpha.md)*

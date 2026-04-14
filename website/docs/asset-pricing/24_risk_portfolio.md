@@ -1510,4 +1510,4 @@ graph TD
 
 ---
 
-*Next: [Module 25 — Statistical Arbitrage & Pairs Trading](../Advanced_Alpha/25_stat_arb.md)*
+*Next: [Module 25 — Statistical Arbitrage & Pairs Trading](../advanced-alpha/25_stat_arb.md)*

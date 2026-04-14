@@ -1835,4 +1835,4 @@ Layer 1 sets the ceiling. Layers 2 and 3 determine how close to that ceiling you
 
 ---
 
-*Next: [Module 13 — Low-Latency Systems Architecture](../Computation/13_low_latency_architecture.md)*
+*Next: [Module 13 — Low-Latency Systems Architecture](../computation/13_low_latency_architecture.md)*

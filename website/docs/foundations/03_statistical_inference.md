@@ -1254,4 +1254,4 @@ The core tension of statistical inference in finance:
 
 ---
 
-*Next: [Module 04 — Stochastic Calculus](../Foundations/04_stochastic_calculus.md)*
+*Next: [Module 04 — Stochastic Calculus](../foundations/04_stochastic_calculus.md)*

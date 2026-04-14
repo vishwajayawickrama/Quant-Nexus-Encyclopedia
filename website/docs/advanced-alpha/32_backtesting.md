@@ -2108,4 +2108,4 @@ graph TB
 
 ---
 
-*Next: [Module 33 — Regime Detection & Adaptive Strategies](../Advanced_Alpha/33_regime_detection.md)*
+*Next: [Module 33 — Regime Detection & Adaptive Strategies](../advanced-alpha/33_regime_detection.md)*

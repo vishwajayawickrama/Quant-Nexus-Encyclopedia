@@ -1708,4 +1708,4 @@ graph TD
 
 ---
 
-*Next: [Module 18 — Derivatives Pricing & the Greeks](../Asset_Pricing/18_derivatives_greeks.md)*
+*Next: [Module 18 — Derivatives Pricing & the Greeks](../asset-pricing/18_derivatives_greeks.md)*

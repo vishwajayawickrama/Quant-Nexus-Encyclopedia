@@ -1,7 +1,7 @@
 # Module 13: Low-Latency Systems Architecture
 
-> **Prerequisites:** [Module 10 — Programming for Quant Finance](../Computation/10_programming_quant_finance.md), [Module 12 — Data Structures & Algorithms](../Computation/12_data_structures_algorithms.md)
-> **Builds toward:** [Module 14 — High-Frequency Trading Infrastructure](../Computation/14_hft_infrastructure.md), [Module 16 — Hardware Acceleration (FPGA/GPU)](../Computation/16_hardware_acceleration.md), [Module 30 — Production Deployment & Monitoring](../Production/30_production_deployment.md)
+> **Prerequisites:** [Module 10 — Programming for Quant Finance](../computation/10_cpp_low_latency.md), [Module 12 — Data Structures & Algorithms](../computation/12_data_structures_algorithms.md)
+> **Builds toward:** [Module 14 — FPGA & Hardware Acceleration](../computation/14_fpga_hardware.md), [Module 16 — Distributed Systems & Message Queues](../computation/16_distributed_systems.md), [Module 30 — High-Frequency Trading Strategies](../advanced-alpha/30_hft_strategies.md)
 
 ---
 
@@ -1802,7 +1802,7 @@ The principles extend beyond trading: any real-time system---autonomous vehicles
 
 ---
 
-*Next: [Module 14 — FPGA & Hardware Acceleration](../Computation/14_fpga_hardware.md)*
+*Next: [Module 14 — FPGA & Hardware Acceleration](../computation/14_fpga_hardware.md)*
 
 ---
 

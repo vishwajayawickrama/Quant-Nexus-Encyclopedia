@@ -2161,4 +2161,4 @@ The three implementations (Sections 11-13) demonstrated production patterns: a z
 
 ---
 
-*Next: [Module 12 — Data Structures & Algorithms for Finance](../Computation/12_data_structures_algorithms.md)*
+*Next: [Module 12 — Data Structures & Algorithms for Finance](../computation/12_data_structures_algorithms.md)*

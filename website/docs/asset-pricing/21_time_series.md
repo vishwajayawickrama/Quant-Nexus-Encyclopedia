@@ -1660,4 +1660,4 @@ graph TD
 
 ---
 
-*Next: [Module 22 — Kalman Filters & State-Space Models](../Asset_Pricing/22_kalman_filters.md)*
+*Next: [Module 22 — Kalman Filters & State-Space Models](../asset-pricing/22_kalman_filters.md)*

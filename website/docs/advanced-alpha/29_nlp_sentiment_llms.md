@@ -1927,4 +1927,4 @@ graph TB
 
 ---
 
-*Next: [Module 30 — High-Frequency Trading Strategies](../Advanced_Alpha/30_hft_strategies.md)*
+*Next: [Module 30 — High-Frequency Trading Strategies](../advanced-alpha/30_hft_strategies.md)*

@@ -1391,4 +1391,4 @@ This module established the linear-algebraic foundations that recur throughout q
 
 ---
 
-*Next: [Module 02 — Probability Theory & Measure Theory](../Foundations/02_probability_measure_theory.md)*
+*Next: [Module 02 — Probability Theory & Measure Theory](../foundations/02_probability_measure_theory.md)*

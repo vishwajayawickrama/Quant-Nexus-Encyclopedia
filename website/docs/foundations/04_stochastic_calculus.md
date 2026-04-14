@@ -1436,4 +1436,4 @@ graph TD
 
 ---
 
-*Next: [Module 05 --- ODEs & PDEs](../Foundations/05_differential_equations.md)*
+*Next: [Module 05 --- ODEs & PDEs](../foundations/05_differential_equations.md)*

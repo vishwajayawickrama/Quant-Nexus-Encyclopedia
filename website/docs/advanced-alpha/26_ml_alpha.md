@@ -1778,4 +1778,4 @@ graph TD
 
 **Previous:** [Module 25: Statistical Arbitrage & Pairs Trading](25_stat_arb.md) provides the cointegration-based and PCA-based alpha signals that can serve as inputs to the ML pipeline developed here.
 
-*Next: [Module 27 — Deep Learning & Neural Networks in Finance](../Advanced_Alpha/27_deep_learning.md)*
+*Next: [Module 27 — Deep Learning & Neural Networks in Finance](../advanced-alpha/27_deep_learning.md)*

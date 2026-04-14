@@ -1585,4 +1585,4 @@ The Greeks framework developed here extends to all these models --- though close
 
 ---
 
-*Next: [Module 19 — Stochastic Volatility Models](../Asset_Pricing/19_stochastic_volatility.md)*
+*Next: [Module 19 — Stochastic Volatility Models](../asset-pricing/19_stochastic_volatility.md)*

@@ -2035,4 +2035,4 @@ graph TB
 
 **Previous:** [Module 27: Deep Learning & Neural Networks in Finance](27_deep_learning.md)
 
-*Next: [Module 29 — NLP, Sentiment & LLMs for Finance](../Advanced_Alpha/29_nlp_sentiment_llms.md)*
+*Next: [Module 29 — NLP, Sentiment & LLMs for Finance](../advanced-alpha/29_nlp_sentiment_llms.md)*
