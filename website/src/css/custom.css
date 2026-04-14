@@ -55,6 +55,9 @@
 
   --ifm-background-color: #0b1020;
   --ifm-background-surface-color: #111732;
+  --ifm-color-content: #e2e8f0;
+  --ifm-color-content-secondary: #cbd5e1;
+  --ifm-heading-color: #f1f5f9;
   --ifm-navbar-background-color: rgba(11, 16, 32, 0.85);
   --ifm-code-background: rgba(165, 180, 252, 0.12);
 
